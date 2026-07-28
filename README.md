@@ -1,9 +1,9 @@
 # Anabeeb Scaffolding Encyclopedia (Grokapedia)
 
-**Version:** v0.2.0-draft  
-**Status:** Max-stack campaign on `draft/campaign-max-stack-v0.2` — WAH extract + public harvest + T1 truth + Ch01 draft; **0 MCR Visible**  
+**Version:** v0.3.0-draft  
+**Status:** Max-stack continue — 9 production chapter drafts; gap catalog GAP-001–022; MCR ~66 Drafting; **0 Visible**  
 **Last Updated:** 28 July 2026  
-**Location:** `~/projects/Scaffolding-Grokapedia`
+**Location:** `~/projects/Scaffolding-Grokapedia` · https://github.com/sluiper/Scaffolding-Grokapedia
 
 ## Purpose
 
@@ -17,8 +17,9 @@ Same operating system as **HPWJ-Grokapedia**: Master Control Register (MCR) as S
 |------|--------|
 | Repo + process files (`AGENTS` / `WORKFLOW` / `PROCESS`) | Live |
 | Encyclopedia chapter map | Live (`docs/00_Encyclopedia_Structure.md`) |
-| Master Control Register | **v0.2.0-draft — 54 Drafting rows, 0 Visible** (T1 truth pass applied) |
-| Production chapter prose | **Ch01 draft** on campaign branch; Ch02–20 stubs |
+| Master Control Register | **v0.3.0-draft — ~66 Drafting rows, 0 Visible** |
+| Gap catalog | `docs/research/inventory/GAP_CATALOG.md` |
+| Production chapter prose | **Ch01–03, 05–06, 13–14, 17–18** drafts; others stubs |
 | Anabeeb WAH procedure | Extracted (`references/standards/Anabeeb_AIMS_L3_HSE_P010_…`) |
 | Scaffold SWP-019 | Planned on master list — **file not found** |
 | Public harvest | RP-STD / RP-COMP / RP-LOAD secondary harvest live |

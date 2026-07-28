@@ -1,42 +1,74 @@
-# Chapter 18 — DOs, DON'Ts, Bad Practices & Never Rules
+# Chapter 18 — DOs, DON’Ts, Bad Practices & Never Rules
 
-**Status:** Stub (v0.1.0-scaffold)  
-**MCR rows:** See MASTER_CONTROL_REGISTER.md (all Drafting)  
-**Source seed:** Anabeeb Module-1 PPTX where applicable
+**Status:** Production draft v0.3  
+**Date:** 28 July 2026  
 
-## Purpose
+## MCR Mapping
 
-From Module-1 bad practices + MCR never candidates
+Never-rule and bad-practice controls: **MCR-007, 010, 011 (stagger), 016, 034, 038, 060–063**, plus foundation/bracing/tie figures from Module-1 s56–s60.
 
-## MCR Mapping (to complete at production draft)
+---
 
-| MCR-ID | Control summary | Status in MCR |
-|--------|-----------------|---------------|
-| — | Populate when drafting | Drafting |
+## 1. Absolute candidates (Never)
 
-## Outline (production draft will expand)
+| Never | Source | MCR |
+|-------|--------|-----|
+| Never return sole boards to scaffold-board service | PPTX s13 | 007 |
+| Never use putlog as structural load-bearing joint | PPTX s16/s23 | 010 |
+| Never cut tube on site without supervisor instruction | PPTX s11 | 038 |
+| Never modify scaffold unless scaffolder | PPTX s62 | 060 |
+| Never carry materials while climbing ladder | PPTX s62 | 061 |
+| Never shift scaffold with forklift/machine | PPTX s62 | 062 |
+| Never use double couplers on structural sections | PPTX s58 | 034 |
+| Never use joint pins in bending/tension positions | PPTX s21 | 013 |
+| Never leave mobile tower unlocked / move occupied | PPTX s40 | 019, 056 |
+| Never exceed design duty class | EN/Aramco tables | 015, 054 |
+| Never use red-tagged scaffold as end user | PPTX/WAH | 028 |
 
-1. Scope of this chapter
-2. Key definitions
-3. Controls (MCR-linked)
-4. Worked examples / figures
-5. System differences (T&F / Cuplok / Ringlock) where relevant
-6. Verification Log
-7. Honest gaps
+## 2. Bad practices called out in Module-1
 
-## Verification Log
+### 2.1 Bracing (s56–s57)
+
+| Good | Bad |
+|------|-----|
+| Braces nearest **node points**; angle **35°–55°** | Far from nodes; angle outside 35–55° |
+
+**MCR-016.** Node distance numeric (e.g. 300 mm TG20 quiz consensus) **not** yet MCR — secondary only.
+
+### 2.2 Tie connections (s58)
+
+| Good | Bad |
+|------|-----|
+| Girder couplers **in pairs** + check couplers | Girder not paired / no check; double on structural section |
+
+### 2.3 Ladder beam splice (s59)
+
+| Good | Bad |
+|------|-----|
+| Short tubes top & bottom + min 4 swivels + sleeve per chord end | Sleeve-only chord join + rungs only |
+
+### 2.4 Foundations (s60)
+
+Unsafe foundations illustrated (soft ground without soles, sloping/unstable bases, etc.). **MCR-033.**
+
+## 3. DOs (positive controls)
+
+- Barricade drop zone; signs; tool lanyards.  
+- Check tag every access, every use.  
+- Stagger sleeves.  
+- Lock mobile casters before work.  
+- Prefer internal ladder on mobile towers.  
+- Inspect/approve before use.  
+- Stop in adverse weather (MCR-051).  
+
+## 4. Verification Log
 
 | Check | Result |
 |-------|--------|
-| Numbers dual-model verified | Not started |
-| Citations primary | Not started |
-| MCR rows present | Seed only |
+| Each Never maps to MCR or gap | Yes |
+| No invented numeric never without source | Yes |
 
-## Honest Gaps
+## 5. Honest gaps
 
-- Production prose not written.
-- Numbers remain Drafting until truth pass.
-- `[INTERNAL GAP – human source required]` for Anabeeb/client procedures.
-
----
-*Do not promote training exam content from this stub.*
+- Illustrated bad-practice figures not transcribed as photos.  
+- Client-specific never lists (Aramco/SABIC) not loaded.

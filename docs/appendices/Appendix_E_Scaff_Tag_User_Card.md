@@ -1,5 +1,13 @@
-# Appendix E Scaff Tag User Card
+# Appendix E — Scaff-Tag User Card (Draft)
 
-**Status:** Placeholder — print-ready card after MCR Visible freeze for cited rows.
+| Colour | Meaning | You may… | You must… |
+|--------|---------|----------|-----------|
+| **GREEN** | Safe for Use | Use for intended duty | Pre-use check; stay within duty class |
+| **YELLOW** | Restricted Use | Use only under stated restrictions | **Harness & lanyard** mandatory |
+| **RED** | Do Not Use | — | **Scaffolders only**; do not enter as user |
 
-Cite MCR IDs only. Do not hard-code unverified numbers into laminated cards.
+- Tags at **all access points**.  
+- Missing/damaged tag → **do not use** → report.  
+- Only authorized person fills tag.  
+
+**MCR-028, MCR-029.** Validity interval still GAP-004.

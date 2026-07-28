@@ -59,3 +59,37 @@
 - Ch03 / Ch05 / Ch06 / Ch17 production (WAH-rich)  
 - Primary PDF intake when purchased  
 - Human freeze of tag + ladder + duty unit set for AWARE pack pilot
+
+---
+
+## Campaign 1b — Max stack continue + gap hunt (28 July 2026)
+
+**Branch:** `draft/campaign-max-stack-v0.2` (continued)
+
+### Full PPTX re-extract → closed / new
+
+| Item | Result |
+|------|--------|
+| Trapeze | **≤ 600 mm from ledger** (GAP-008 closed) |
+| Aramco CSM-II duty | Light 1.2 / Med 2.4 / Spec >2.4 (MCR-054) |
+| Ladder hatch | 675×900 mm; free spaces 600/200 (MCR-055) |
+| Casters | ≥120 / ≥170 mm (MCR-056) |
+| Plan braces free-stand | top, kicker, every 3rd lift (MCR-057) |
+| Cantilever | ≤3 m without design; raker no splice (MCR-058/059) |
+| User never pack | MCR-060–063 |
+| Board typo | MCR-065 |
+
+### Production drafts added
+
+Ch02, Ch03, Ch05, Ch06, Ch13, Ch14, Ch17, Ch18  
+Appendices A, D, E, G, H draft cards  
+`references/standards/21_Regulatory_and_Client_Matrix.md`  
+`docs/research/inventory/GAP_CATALOG.md` (GAP-001–022)
+
+### MCR
+
+v0.2 → **v0.3.0-draft** (~66 Drafting rows, still **0 Visible**)
+
+### Remaining top gaps
+
+GAP-001 SWP-019 · GAP-007 primary PDFs · GAP-004 tag validity · GAP-012 sleeve · GAP-009 wind · GAP-019 dual duty

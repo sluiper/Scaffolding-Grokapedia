@@ -1,14 +1,13 @@
-# MASTER CONTROL REGISTER (Living Document) — v0.2.0-draft
+# MASTER CONTROL REGISTER (Living Document) — v0.3.0-draft
 
 **This is the single source of truth for the entire Scaffolding Encyclopedia.**
 
 Every named rule, numeric threshold, procedural requirement, and control from all sources and versions must be recorded here with clear sourcing and linkage to FMEA where applicable.
 
-**Latest Update (28 July 2026 — campaign max-stack):**  
-- Seed from PPTX-M1 retained.  
-- T1 truth pass applied (see `docs/audit/campaign/T1_TRUTH_PASS_2026-07-28.md`).  
-- Anabeeb **AIMS-L3-HSE-P-010 Working at Height** extracted → new MCR rows + tag/guardrail alignment.  
-- **Still zero Visible rows.** Human + Claude gate required for any Drafting → Visible.
+**Latest Update (28 July 2026 — max-stack continue):**  
+- Full PPTX re-extract closed trapeze, Aramco CSM-II duty, ladder openings, casters, cantilever 3 m.  
+- T1 truth pass retained. WAH extract retained.  
+- **Still zero Visible rows.**
 
 ## How to Use
 
@@ -77,12 +76,12 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-021 | Guardrail heights — Anabeeb | **Anabeeb sites:** top edge **1.1 m ± 8 cm** (1.02–1.18 m) above working level; midrail / intermediate **≥ 53 cm**; top withstand **890 N**; midrail **666 N** | WAH-P010 | Drafting | **T1:** Anabeeb WAH supersedes deck for Anabeeb operations |
 | MCR-021a | Guardrail heights — training/UK floor | Training deck top rail **0.950–1.150 m**; UK WAH Regs construction floor **≥ 950 mm**; intermediate gap **≤ 470 mm** (UK) | PPTX-M1 s34; UK WAH Regs secondary | Drafting | Comparative / training. Prefer MCR-021 on Anabeeb work. |
 | MCR-022 | Kicker lift | Kicker lift max **150 mm** from ground | PPTX-M1 s30 | Drafting | |
-| MCR-023 | Ladder slope & extension | Access ladder slope **4 vertical : 1 horizontal** (~75°); extend **≥ 1.0 m** above landing; secure; three-point contact | PPTX-M1 s27, s51; WAH-P010 | Drafting | **T1 PASS** dual source |
+| MCR-023 | Ladder slope & extension | Slope **4:1** (~75°); extend **≥ 1.0 m or 3 rungs** above landing; secure top/mid/bottom as length requires; three-point contact; firm level base | PPTX-M1 s27, s51; WAH-P010 | Drafting | **T1 PASS** + s51 3-rung alternate |
 | MCR-024 | Ladder beam material | Steel ladder beams from BS EN 39 type 4 tubes 48.3 mm, 4 mm wall, fy ≥ **235 N/mm²** | PPTX-M1 s26 | Drafting | |
 | MCR-025 | Ladder beam splice | Splice: short tubes on top & bottom chords with **min 4 swivel couplers** + **1 sleeve** per chord end (good practice slide) | PPTX-M1 s59 | Drafting | |
 | MCR-026 | Scaffold boards | Timber boards **BS 2482**; nominal **38 mm × 225 mm** (also 63 mm grade); mark standard, manufacturer, max span | PPTX-M1 s20; BS2482-sec | Drafting | T1 PASS secondary dimensions |
 | MCR-027 | Double sole under shared standards | Shared sole board for two standards: min **750 × 225 × 75 mm**; or individual **450 × 225 × 38 mm** with central bearing | PPTX-M1 s25 | Drafting | |
-| MCR-028 | Scaff-tag colours (Anabeeb) | **Green** = Safe for Use; **Yellow** = Restricted Use; **Red** = Do Not Use. Display at access points. | WAH-P010; PPTX-M1 s64 | Drafting | **T1 aligned to WAH wording** (PPTX “scaffolders only / harness mandatory” folded under Red/Yellow practice) |
+| MCR-028 | Scaff-tag colours (Anabeeb) | **Green** = Safe for Use; **Yellow** = Restricted Use — harness & lanyard mandatory (PPTX); **Red** = Do Not Use — scaffolders only (PPTX). Display at all access points. Only authorized person fills tag. | WAH-P010; PPTX-M1 s62–s64 | Drafting | Combined WAH generic + PPTX operational detail |
 | MCR-029 | Scaffold inspection & pre-use | All scaffolds **inspected and approved prior to use**; tags at access points; end user confirms tag status **prior to each use** | WAH-P010; PPTX-M1 s62 | Drafting | T1 strengthened |
 | MCR-030 | Fall protection hierarchy (scaffold) | Prefer collective protection (guardrails, nets); barricade drop zone; harness/lanyard as required by tag/task; tool lanyards | WAH-P010; PPTX-M1 s48 | Drafting | |
 | MCR-031 | Gin wheel SWL & reach | Gin wheel max SWL **50 kg**; horizontal support tube extend max **750 mm**; fixed with **2 right-angle couplers** | PPTX-M1 s54 | Drafting | T1 HOLD — PPTX only |
@@ -94,7 +93,7 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-037 | PPE last line of defence | PPE is last line of defence — engineering/admin controls first | PPTX-M1 s8; WAH-P010 hierarchy | Drafting | |
 | MCR-038 | Never cut tube on site | Never cut tube on site unless instructed by supervisor | PPTX-M1 s11 | Drafting | |
 | MCR-039 | Systems recognised | Tube & Fitting; Captive wedge Cuplok; Quick fix / Ringlock (Layher-type) | PPTX-M1 s37 | Drafting | |
-| MCR-040 | Hung / trapeze | Hung scaffold from structural sections; trapeze assist tube max distance **[GAP-008 — extract exact figure]** | PPTX-M1 s43 | Drafting | |
+| MCR-040 | Hung / trapeze | Suspended/underhung from I-beams with tie around section; trapeze assist tube **≤ 600 mm from ledger** | PPTX-M1 s43 | Drafting | **GAP-008 closed** from full extract |
 | MCR-041 | Independent scaffold posts | Independent scaffold: 2 posts across width + multiple along length | PPTX-M1 s41 | Drafting | |
 | MCR-042 | Check couplers on ties | Tie connections use check (safety) couplers; girder pairs with check couplers | PPTX-M1 s58 | Drafting | |
 | MCR-043 | Anabeeb stricter rule gate | Any Anabeeb controlled procedure stricter than international baseline **wins** on Anabeeb work | WAH-P010; policy | Drafting | Partial content from WAH; full scaffold SWP still GAP-001 |
@@ -109,6 +108,20 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-052 | Temporary platforms list | Where permanent platforms unavailable, temporary options include: scaffolding, mobile scaffolding, suspended scaffolding, hop-ups, personnel cages, portable stepladder | WAH-P010 | Drafting | New |
 | MCR-053 | Planned scaffold SWP | Controlled scaffold procedure target: **AIMS-L3-HSE-SWP-019** Scaffolding Erection, Inspection & Use (status New on master list — file not yet available) | ANABEEB HSE Procedure Master List Rev01 | Drafting | Placeholder — bind encyclopedia when SWP issued |
 
+| MCR-054 | Aramco CSM-II duty classes (deck) | Light **1.2 kN/m²**; Medium **2.4 kN/m²**; Special **> 2.4 kN/m²** (deck printed “N sqm” — interpret kN/m²; aligns ~25/50 psf industry mapping) | PPTX-M1 s38 (Aramco CSM-II) | Drafting | **GAP-002 partial** — need full CSM text. Dual system with MCR-015 (TG20/EN) → GAP-019 |
+| MCR-055 | Ladder hatch / opening | Ladder opening **675 mm wide × 900 mm depth**; climbing side free space **≥ 600 mm**; back of ladder **≥ 200 mm** | PPTX-M1 s51 | Drafting | New from full extract |
+| MCR-056 | Mobile tower caster diameter | Light-duty mobile casters **≥ 120 mm** dia; medium-duty **≥ 170 mm** dia; lock when in use; no persons/materials while moving | PPTX-M1 s40 | Drafting | New |
+| MCR-057 | Free-standing plan braces | Plan braces at **top, kicker, and every third lift**; brace all four sides | PPTX-M1 s39 | Drafting | New |
+| MCR-058 | Cantilever platform length | Cantilever platform **≤ 3 m** without scaffold design; beyond 3 m requires design (deck cites Aramco CSM-II) | PPTX-M1 s44 | Drafting | New; engineering gate MCR-045 |
+| MCR-059 | Cantilever raker integrity | Raker **single tube — no splicing permitted**; inclination **65°–75°** (see also MCR-032) | PPTX-M1 s44 | Drafting | New |
+| MCR-060 | User never modify | Only scaffolders authorized to modify scaffold; end users must not bypass barriers or enter barricaded modify zones | PPTX-M1 s62 | Drafting | Never-rule family |
+| MCR-061 | Climbing with materials | End user must **not** carry materials while climbing access ladders | PPTX-M1 s62 | Drafting | Never-rule |
+| MCR-062 | No machine shift of scaffold | Scaffolds not permitted to be shifted using forklift or any machine | PPTX-M1 s62 | Drafting | Never-rule |
+| MCR-063 | Access platform occupancy | Only working platform designed for human occupancy with limited hand tools; full-time occupancy not permitted on access platforms | PPTX-M1 s62 | Drafting | |
+| MCR-064 | Mobile tower external ladder | Prefer internal ladder; if external, fix **vertically on narrow side** of tower | PPTX-M1 s40 | Drafting | New |
+| MCR-065 | Board width typo flag | Nominal board width **225 mm** (PPTX s20 OCR/text error “225m” must never be taught) | PPTX-M1 s20; BS2482-sec | Drafting | GAP-011 documentation |
+
+
 ## Conflicts Log
 
 | # | Issue | Resolution |
@@ -117,8 +130,9 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | C2 | Sleeve multi-values | **Open** — MCR-011 |
 | C3 | Duty “N sqm” | **Resolved → kN/m²** |
 | C4 | Guardrail PPTX vs WAH | **Anabeeb → MCR-021**; training/UK floor → MCR-021a |
-| C5 | Trapeze limit | **Open** — GAP-008 |
+| C5 | Trapeze limit | **Closed 600 mm** — MCR-040 |
 | C6 | Wind threshold incomplete in WAH extract | **Open** — GAP-009 |
+| C7 | TG20/EN duty (0.75–3.0) vs Aramco CSM-II (1.2/2.4/>2.4) on same site | **Open interface** — GAP-019; use client-specified class |
 
 ## Promotion Rules
 
@@ -131,4 +145,4 @@ A row may move Drafting → Visible only when:
 
 ## Row Count
 
-**54 control rows** (incl. MCR-021a) — **all Drafting**. **Zero Visible.**
+**~66 control rows** (incl. MCR-021a, MCR-054–065) — **all Drafting**. **Zero Visible.**

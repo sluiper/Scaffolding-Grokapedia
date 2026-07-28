@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## draft/campaign-max-stack-v0.2 (continue) – 28 July 2026
+
+### Gap hunt + production stack
+- Full 66-slide PPTX re-extract; closed GAP-008 (trapeze 600 mm); harvested Aramco CSM-II duty, ladder openings, casters, cantilever 3 m, user never-rules.
+- MCR **v0.3.0-draft** (~66 Drafting rows): MCR-054–065; MCR-023/028/040 updates.
+- Production drafts: Ch02, Ch03, Ch05, Ch06, Ch13, Ch14, Ch17, Ch18.
+- Draft field cards: Appendices A, D, E, G, H.
+- Client matrix stub `references/standards/21_…`; living `GAP_CATALOG.md`.
+- Still **0 Visible** promotions.
+
 ## draft/campaign-max-stack-v0.2 – 28 July 2026 (not yet merged to main)
 
 ### 1 — Internal harvest
