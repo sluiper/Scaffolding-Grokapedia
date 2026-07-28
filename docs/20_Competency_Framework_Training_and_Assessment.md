@@ -1,42 +1,58 @@
 # Chapter 20 — Competency Framework, Training & Assessment
 
-**Status:** Stub (v0.1.0-scaffold)  
-**MCR rows:** See MASTER_CONTROL_REGISTER.md (all Drafting)  
-**Source seed:** Anabeeb Module-1 PPTX where applicable
+**Status:** Production draft v0.4  
+**Date:** 28 July 2026  
 
-## Purpose
+## MCR Mapping
 
-Links training/ packs; MCR-035
-
-## MCR Mapping (to complete at production draft)
-
-| MCR-ID | Control summary | Status in MCR |
-|--------|-----------------|---------------|
-| — | Populate when drafting | Drafting |
-
-## Outline (production draft will expand)
-
-1. Scope of this chapter
-2. Key definitions
-3. Controls (MCR-linked)
-4. Worked examples / figures
-5. System differences (T&F / Cuplok / Ringlock) where relevant
-6. Verification Log
-7. Honest gaps
-
-## Verification Log
-
-| Check | Result |
-|-------|--------|
-| Numbers dual-model verified | Not started |
-| Citations primary | Not started |
-| MCR rows present | Seed only |
-
-## Honest Gaps
-
-- Production prose not written.
-- Numbers remain Drafting until truth pass.
-- `[INTERNAL GAP – human source required]` for Anabeeb/client procedures.
+MCR-035, 053, 060 · `training/` packs · GAP-005.
 
 ---
-*Do not promote training exam content from this stub.*
+
+## 1. Roles (working model)
+
+| Role | Intent | Pack code |
+|------|--------|-----------|
+| Site user / awareness | Use green/yellow scaffolds safely; never modify | **ATC-SCAF-AWARE** |
+| New scaffolder basic | Erect/modify/dismantle basics (Module-1 aligned) | **ATC-SCAF-BASIC** |
+| Advanced | Complex/hung/cantilever/engineering interface | **ATC-SCAF-ADV** |
+| Inspector | Handover, tagging, defect recognition | **ATC-SCAF-INSP** |
+| Supervisor | Planning, PTW, SIMOPS, competency gate | **ATC-SCAF-SUP** |
+| VOC | Periodic re-verification | **ATC-SCAF-VOC** |
+
+## 2. Build rules (same as HPWJ)
+
+1. **MCR is SSOT** — exams cite MCR-IDs; no free-floating SWL/duty constants.  
+2. Prefer **Visible** MCR for pass/fail items; if pilot on Drafting, human freezes the set explicitly.  
+3. Practical checklist = critical items fail the course.  
+4. Bilingual EN/AR headings optional on key sheets.  
+
+## 3. Pilot freeze candidate set (AWARE)
+
+Human may pilot AWARE against:
+
+- MCR-028, 029 (tags)  
+- MCR-060–063 (user never)  
+- MCR-023, 061 (ladder)  
+- MCR-015/054 awareness (do not overload — qualitative)  
+- MCR-047, 048 (drop zone / tools)  
+
+**Still Drafting** — pilot only if you accept that risk without Claude.
+
+## 4. External schemes
+
+**GAP-005:** CISRS / TVTC / client card mapping not loaded. Do not claim equivalence.
+
+## 5. Link to controlled docs
+
+- WAH-P010: fall protection training duties.  
+- Future SWP-019: scaffold competency forms (**MCR-053**).  
+- Master list competence procedure L2-HSE-P-005 planned.
+
+## 6. Verification Log
+
+Framework only; full BASIC pack still deferred.
+
+## 7. Honest gaps
+
+No pass mark policy; no ATC certificate template approved.

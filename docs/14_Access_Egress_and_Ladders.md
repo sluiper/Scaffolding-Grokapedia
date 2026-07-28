@@ -1,42 +1,48 @@
 # Chapter 14 — Access, Egress & Ladders
 
-**Status:** Stub (v0.1.0-scaffold)  
-**MCR rows:** See MASTER_CONTROL_REGISTER.md (all Drafting)  
-**Source seed:** Anabeeb Module-1 PPTX where applicable
+**Status:** Production draft v0.3  
+**Date:** 28 July 2026  
 
-## Purpose
+## MCR Mapping
 
-MCR-023–025
+MCR-023, 055, 061, 064; related 028 yellow-tag PPE.
 
-## MCR Mapping (to complete at production draft)
+---
 
-| MCR-ID | Control summary | Status in MCR |
-|--------|-----------------|---------------|
-| — | Populate when drafting | Drafting |
+## 1. Ladder rules (merged PPTX + WAH)
 
-## Outline (production draft will expand)
+| Rule | Value | Sources |
+|------|-------|---------|
+| Slope | **4:1** height:base (~75°) | PPTX + WAH |
+| Extension above landing | **≥ 1.0 m or 3 rungs** | PPTX s51; WAH 1 m |
+| Condition | No missing/defective rungs | PPTX |
+| Securing | Top & bottom min; long ladders top/mid/bottom with clamps | PPTX |
+| Base | Firm and level; support on stiles only | PPTX |
+| Climbing | Three-point contact; **no materials in hands** | WAH + MCR-061 |
 
-1. Scope of this chapter
-2. Key definitions
-3. Controls (MCR-linked)
-4. Worked examples / figures
-5. System differences (T&F / Cuplok / Ringlock) where relevant
-6. Verification Log
-7. Honest gaps
+## 2. Ladder opening geometry (Module-1)
 
-## Verification Log
+| Dimension | Value | MCR |
+|-----------|-------|-----|
+| Opening width | **675 mm** | 055 |
+| Opening depth | **900 mm** | 055 |
+| Free space climb side | **≥ 600 mm** | 055 |
+| Free space back of ladder | **≥ 200 mm** | 055 |
+
+[CITATION: PPTX-M1 s51]
+
+## 3. Mobile tower access
+
+Prefer internal ladder; external ladder only vertical on narrow side (**MCR-064**).
+
+## 4. Verification Log
 
 | Check | Result |
 |-------|--------|
-| Numbers dual-model verified | Not started |
-| Citations primary | Not started |
-| MCR rows present | Seed only |
+| Opening dims new to MCR | Yes |
+| Conflict 1 m vs 3 rungs | Both retained as OR |
 
-## Honest Gaps
+## 5. Honest gaps
 
-- Production prose not written.
-- Numbers remain Drafting until truth pass.
-- `[INTERNAL GAP – human source required]` for Anabeeb/client procedures.
-
----
-*Do not promote training exam content from this stub.*
+- Stair towers / proprietary access not covered.  
+- NASC SG25 not harvested.

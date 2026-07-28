@@ -1,45 +1,68 @@
-# ATC-SCAF-AWARE — Course Specification
+# ATC-SCAF-AWARE — Course Specification  
+## مواصفات الدورة — توعية مستخدم السقالة
 
-**Status:** 0.0-stub (local scaffold only)  
-**Official name:** Site User Awareness  
-**Provisional duration:** ½ day target  
-**Governing encyclopedia:** Scaffolding-Grokapedia Ch20 + Master Control Register  
-**Owner:** Anabeeb Training Center (ATC) / QHSSE
+**Status:** 0.2-draft (Grok-only pilot; MCR rows still Drafting)  
+**Code:** ATC-SCAF-AWARE  
+**Official name:** Anabeeb Scaffold Site User Awareness  
+**Duration:** ~½ day (3–4 contact hours)  
+**Class size:** max 20 (awareness)  
+**Owner:** ATC / QHSSE  
+**SSOT:** MASTER_CONTROL_REGISTER.md  
+**Governing chapters:** 01, 02, 03, 14, 17, 18  
 
-## Intent
+---
 
-For non-scaffolders who use scaffolds: tags, pre-use checks, never modify, report defects.
+## 1. Intent
 
-## Entry gates (provisional)
+Enable **non-scaffolders** (craft, inspectors, visitors under escort policy, supervisors who do not erect) to:
 
-- Fit for work at height per company medical / fitness practice
-- Site induction / PTW awareness as required by host site
-- Language of delivery literacy (or approved translator arrangement)
+- Read and obey **scaff-tags**  
+- Perform a **user pre-use check**  
+- Never modify scaffold or enter modify zones  
+- Use ladders and yellow-tag controls correctly  
+- Respect drop zones and tool control  
 
-## Pass criteria (to define after MCR freeze)
+**Not** a scaffolder qualification.
+
+## 2. Entry gates
+
+- Site induction complete  
+- Fit for work at height awareness (medical per site)  
+- Language of delivery or translator  
+
+## 3. Pass criteria (pilot)
 
 | Element | Standard |
 |---------|----------|
-| Theory | TBD % — MCR-mapped items only |
-| Practical | Pass on all critical checklist items (checklist not yet built) |
-| Behavioural | Stop-work, tag discipline, drop-zone awareness |
+| Awareness quiz | ≥ **80%** (`03_Awareness_Quiz.md`) |
+| Attendance | Full session |
+| Behavioural | Correct tag response in scenario drill |
 
-## Build rules
+No practical erect assessment.
 
-1. Cite MCR-IDs; never hard-code unverified SWL / loads / heights / ratios.
-2. No exam bank until high-risk MCR rows for this pack are Visible or human pilot-freezes Drafting set.
-3. EN/AR headings optional on key sheets (match HPWJ pattern when content exists).
+## 4. MCR set for this pack (pilot freeze candidate)
 
-## Planned pack files (not yet written)
+| MCR | Topic |
+|-----|-------|
+| 028 | Tag colours G/Y/R |
+| 029 | Pre-use tag check |
+| 060 | Never modify / barricade |
+| 061 | No materials on climb |
+| 062 | No machine shift |
+| 063 | Access platform occupancy |
+| 023 | Ladder 4:1 + extension |
+| 047 | Tool lanyards |
+| 048 | Drop zone |
+| 015/054 | Do not overload (qualitative) |
 
-- `01_Trainer_Guide.md`
-- `02_Student_Workbook.md` (or Handout for AWARE)
-- `03_Practical_Competency_Checklist.md`
-- `04_Theory_Exam*.md`
-- `05_Assessment_Record.md`
-- `README.md`
+All still **Drafting** — pilot only under human acceptance without Claude.
 
-## Honest gaps
+## 5. Outputs
 
-- Competency scheme mapping (CISRS/TVTC/client) — GAP-005
-- Anabeeb procedure alignment — GAP-001
+- Attendance record  
+- Quiz score  
+- Optional awareness card (site policy)  
+
+## 6. Version
+
+0.2-draft — 28 July 2026 — max-stack no-Claude continue

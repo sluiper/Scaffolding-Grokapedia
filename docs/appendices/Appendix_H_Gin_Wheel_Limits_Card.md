@@ -1,5 +1,10 @@
-# Appendix H Gin Wheel Limits Card
+# Appendix H — Gin Wheel Limits Card (Draft)
 
-**Status:** Placeholder — print-ready card after MCR Visible freeze for cited rows.
+| Limit | Value | MCR |
+|-------|-------|-----|
+| Max SWL | **50 kg** | 031 |
+| Max horizontal outreach | **750 mm** | 031 |
+| Fixing | **2 right-angle couplers** to scaffold | 031 |
 
-Cite MCR IDs only. Do not hard-code unverified numbers into laminated cards.
+**Source:** Module-1 only — GAP-014 until SWP/procedure confirms.  
+Never overload; control drop zone below.

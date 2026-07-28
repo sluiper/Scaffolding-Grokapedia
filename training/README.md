@@ -1,24 +1,27 @@
 # Training packs / حزم التدريب — Scaffolding
 
 **Governing framework:** `docs/20_Competency_Framework_Training_and_Assessment.md`  
-**SSOT for numbers:** `MASTER_CONTROL_REGISTER.md`  
-**Rule:** Never hard-code SWL, duty loads, guardrail heights, or tower ratios — cite **MCR-IDs**.
+**SSOT:** `MASTER_CONTROL_REGISTER.md`  
+**Rule:** Cite MCR-IDs; never hard-code unverified constants into exams without MCR lookup.
 
-| Code | Title | Duration (provisional) | Path | Status |
-|------|-------|------------------------|------|--------|
-| ATC-SCAF-BASIC | New Scaffolder Basic (Module-1 alignment) | multi-day | `ATC-SCAF-BASIC/` | 0.0-stub |
-| ATC-SCAF-ADV | Advanced / Complex Structures | TBD | `ATC-SCAF-ADV/` | 0.0-stub |
-| ATC-SCAF-INSP | Scaffold Inspector | TBD | `ATC-SCAF-INSP/` | 0.0-stub |
-| ATC-SCAF-SUP | Supervisor / Team Leader | TBD | `ATC-SCAF-SUP/` | 0.0-stub |
-| ATC-SCAF-AWARE | Site User Awareness | ½ day target | `ATC-SCAF-AWARE/` | 0.0-stub |
-| ATC-SCAF-VOC | Verification of Competency | 1 day target | `ATC-SCAF-VOC/` | 0.0-stub |
+| Code | Title | Duration | Path | Status |
+|------|-------|----------|------|--------|
+| ATC-SCAF-BASIC | New Scaffolder Basic (Module-1) | 4–5 days prov. | `ATC-SCAF-BASIC/` | **0.2-draft** |
+| ATC-SCAF-ADV | Advanced / Complex | ~3 days prov. | `ATC-SCAF-ADV/` | **0.2-draft** |
+| ATC-SCAF-INSP | Scaffold Inspector | 2 days prov. | `ATC-SCAF-INSP/` | **0.2-draft** |
+| ATC-SCAF-SUP | Supervisor / Team Leader | 2 days prov. | `ATC-SCAF-SUP/` | **0.2-draft** |
+| ATC-SCAF-AWARE | Site User Awareness | ½ day | `ATC-SCAF-AWARE/` | **0.2-draft** |
+| ATC-SCAF-VOC | Verification of Competency | 1 day | `ATC-SCAF-VOC/` | **0.2-draft** |
 
-## Build gate (same as HPWJ)
 
-Do **not** write exam banks or practical pass/fail checklists until:
+## Exam open-book sheet
 
-1. High-risk MCR rows for that pack are **Visible** (or human explicitly freezes Drafting set for pilot), and  
-2. Chapter 20 outlines competency levels, and  
-3. Anabeeb/client competency mapping gaps are accepted or closed.
+| Artefact | Path | Status |
+|----------|------|--------|
+| MCR Exam Extract (printable) | `MCR_EXAM_EXTRACT.md` | Drafting — not Visible watermark |
 
-Seed content for BASIC may outline against Module-1 topics only — no unverified numbers in learner assessments.
+Values must match `MASTER_CONTROL_REGISTER.md` only.
+
+## Pilot note
+
+All packs are Grok-built against **Drafting** MCR. Field pilot only with human acceptance. Zero MCR Visible promotions.

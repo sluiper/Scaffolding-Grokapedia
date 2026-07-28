@@ -53,15 +53,18 @@
 - Ready for human review / Needs fixes / etc.
 ```
 
-## Priority Queue (Scaffolding v0.1)
+## Priority Queue (Scaffolding v0.2 campaign)
 
 - [x] Local project scaffold + process lock
 - [x] Encyclopedia structure map
 - [x] Seed MCR from Anabeeb Module-1 (Drafting only)
-- [ ] Internal Anabeeb / client procedure ingest (human-gated)
-- [ ] Public standards research packages (EN 39, EN 74, BS 2482, NASC/TG20 notes)
-- [ ] Dual-model truth pass on high-risk MCR rows (loads, SWL, guardrails, free-standing ratios, gin wheel)
-- [ ] Chapter 1 production draft
+- [x] Anabeeb WAH-P010 extract
+- [x] Public secondary harvest RP-STD/COMP/LOAD
+- [x] Grok T1 truth pass (high-risk set)
+- [x] Chapter 01 production draft
+- [ ] Claude Verification Report (Ch01 + T1)
+- [ ] Human review + selective Visible promotions
+- [ ] Ch03 / Ch05–06 / Ch17 drafts
 - [ ] Training packs only after MCR freeze for exam-critical rows
 
 ## Safety Gate (Absolute)
