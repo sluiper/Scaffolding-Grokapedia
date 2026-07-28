@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## draft/campaign-max-stack-v0.2 (v0.4 no-Claude continue) – 28 July 2026
+
+### Full chapter set + AWARE pack
+- **Ch04–12, 15–16, 19–20** production drafts (completes Ch01–20 operational set).
+- **ATC-SCAF-AWARE 0.2-draft:** course spec, trainer guide, handout, 20-item quiz+key, attendance.
+- Appendices **B, C, I** draft cards; pre-use checklist v0.4.
+- Human directed: continue without Claude verification. Still **0 MCR Visible** (honest).
+- Encyclopedia version **v0.4.0-draft**.
+
 ## draft/campaign-max-stack-v0.2 (continue) – 28 July 2026
 
 ### Gap hunt + production stack

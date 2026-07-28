@@ -1,7 +1,7 @@
 # Scaffolding Encyclopedia (Grokapedia) – Structure & Status
 
-**Version 0.3.0-draft – 28 July 2026**  
-**Status: Max-stack continue. Full PPTX re-extract. MCR ~66 Drafting. Production drafts: Ch01–03, 05–06, 13–14, 17–18. Gap catalog live.**
+**Version 0.4.0-draft – 28 July 2026**  
+**Status: Full operational chapter set Ch01–20 production drafts (Grok-only continue). AWARE pack 0.2. MCR still 0 Visible.**
 
 ## Part 1 – Front Matter & Fundamentals
 
@@ -10,7 +10,7 @@
 | 01 | Introduction, Scope, Purpose & How to Use | **Production draft v0.2** |
 | 02 | Scaffold Fundamentals & Definitions | **Production draft v0.3** |
 | 03 | Safety Requirements, Permits, PPE & Planning | **Production draft v0.3** |
-| 04 | Global Standards Landscape (EN, BS, NASC/TG20, OSHA comparative, KSA clients) | Stub (matrix live in references/21) |
+| 04 | Global Standards Landscape (EN, BS, NASC/TG20, OSHA comparative, KSA clients) | **Production draft v0.4** |
 
 ## Part 2 – Components & Systems
 
@@ -18,17 +18,17 @@
 |----|-------|--------|
 | 05 | Scaffold Components — Tubes, Boards, Sole Boards, Base Jacks | **Production draft v0.3** |
 | 06 | Fittings & Couplers (EN 74) | **Production draft v0.3** |
-| 07 | Scaffold Terminology | Stub |
-| 08 | Scaffold Types & Proprietary Systems (T&F, Cuplok, Ringlock) | Stub |
-| 09 | Duty Classes & Load Ratings | Stub |
+| 07 | Scaffold Terminology | **Production draft v0.4** |
+| 08 | Scaffold Types & Proprietary Systems (T&F, Cuplok, Ringlock) | **Production draft v0.4** |
+| 09 | Duty Classes & Load Ratings | **Production draft v0.4** |
 
 ## Part 3 – Structural Arrangements & Stability
 
 | Ch | Title | Status |
 |----|-------|--------|
-| 10 | Foundations, Ground Conditions & Sole Boards | Stub |
-| 11 | Ties (Box, Lip, Through, Drill/Anchor) | Stub |
-| 12 | Bracing Arrangements | Stub |
+| 10 | Foundations, Ground Conditions & Sole Boards | **Production draft v0.4** |
+| 11 | Ties (Box, Lip, Through, Drill/Anchor) | **Production draft v0.4** |
+| 12 | Bracing Arrangements | **Production draft v0.4** |
 | 13 | Free-Standing, Mobile, Independent, Hung, Cantilever | **Production draft v0.3** |
 | 14 | Access, Egress & Ladders | **Production draft v0.3** |
 
@@ -36,12 +36,12 @@
 
 | Ch | Title | Status |
 |----|-------|--------|
-| 15 | Material Lifting & Lowering (Gin Wheel) | Stub |
-| 16 | Fall Protection During Erect / Modify / Dismantle | Stub |
+| 15 | Material Lifting & Lowering (Gin Wheel) | **Production draft v0.4** |
+| 16 | Fall Protection During Erect / Modify / Dismantle | **Production draft v0.4** |
 | 17 | Inspection, Scaff-Tags, Handover & User Instructions | **Production draft v0.3** |
 | 18 | DOs, DON’Ts, Bad Practices & Never Rules | **Production draft v0.3** |
-| 19 | Failure Modes & Effects Analysis (FMEA) | Stub |
-| 20 | Competency Framework, Training & Assessment | Stub |
+| 19 | Failure Modes & Effects Analysis (FMEA) | **Production draft v0.4** |
+| 20 | Competency Framework, Training & Assessment | **Production draft v0.4** |
 
 ## Part 5 – Supporting Sections (Planned)
 
@@ -61,14 +61,14 @@
 | App | Title | Status |
 |-----|-------|--------|
 | A | Duty Load Quick Card | **Draft card** |
-| B | Coupler Selection & SWL Card | Placeholder |
-| C | Guardrail & Edge Protection Card | Placeholder |
+| B | Coupler Selection & SWL Card | **Draft card** |
+| C | Guardrail & Edge Protection Card | **Draft card** |
 | D | Free-Standing / Mobile Tower Ratio Card | **Draft card** |
 | E | Scaff-Tag User Card | **Draft card** |
-| F | Pre-Use Inspection Checklist | Stub in `templates/` |
+| F | Pre-Use Inspection Checklist | **Draft checklist v0.4** |
 | G | Never Rules One-Pager | **Draft card** |
 | H | Gin Wheel Limits Card | **Draft card** |
-| I | Tie Types Quick Reference | Placeholder |
+| I | Tie Types Quick Reference | **Draft card** |
 
 ## Training Packs (Index Only — See `training/`)
 
@@ -78,7 +78,7 @@
 | ATC-SCAF-ADV | Advanced / Complex Structures | Spec stub |
 | ATC-SCAF-INSP | Scaffold Inspector | Spec stub |
 | ATC-SCAF-SUP | Supervisor / Team Leader | Spec stub |
-| ATC-SCAF-AWARE | Site User Awareness | Spec stub |
+| ATC-SCAF-AWARE | Site User Awareness | **0.2-draft pack** |
 | ATC-SCAF-VOC | Verification of Competency | Spec stub |
 
 ## How to Use This Structure

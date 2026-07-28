@@ -93,3 +93,20 @@ v0.2 → **v0.3.0-draft** (~66 Drafting rows, still **0 Visible**)
 ### Remaining top gaps
 
 GAP-001 SWP-019 · GAP-007 primary PDFs · GAP-004 tag validity · GAP-012 sleeve · GAP-009 wind · GAP-019 dual duty
+
+---
+
+## Campaign 1c — No-Claude full stack (28 July 2026)
+
+**Human instruction:** keep building without Claude.
+
+### Delivered
+- All remaining chapters Ch04, 07–12, 15–16, 19–20 → production drafts  
+- ATC-SCAF-AWARE full mini-pack (quiz 20 items)  
+- Appendices B, C, I + checklist v0.4  
+- Version **v0.4.0-draft**
+
+### Explicit non-claims
+- No Claude Verification Report  
+- No Drafting → Visible  
+- AWARE pack pilot risk accepted only by human if used in field before freeze

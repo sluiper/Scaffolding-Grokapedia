@@ -1,42 +1,60 @@
-# Chapter 19 — Failure Modes & Effects Analysis
+# Chapter 19 — Failure Modes & Effects Analysis (FMEA)
 
-**Status:** Stub (v0.1.0-scaffold)  
-**MCR rows:** See MASTER_CONTROL_REGISTER.md (all Drafting)  
-**Source seed:** Anabeeb Module-1 PPTX where applicable
+**Status:** Production draft v0.4 — **candidate RPN only** (not calibrated site data)  
+**Date:** 28 July 2026  
 
-## Purpose
+## MCR Mapping
 
-RPN method; promote high-priority MCR set
+High-priority candidates table in MCR header · never-rules Ch18.
 
-## MCR Mapping (to complete at production draft)
+---
 
-| MCR-ID | Control summary | Status in MCR |
-|--------|-----------------|---------------|
-| — | Populate when drafting | Drafting |
+## 1. Method (simple 1–10 scales)
 
-## Outline (production draft will expand)
+**RPN = Severity (S) × Likelihood (L) × Detection difficulty (D)**  
+Scales are **[SYNTHESIS]** for prioritisation of encyclopedia focus — **not** Anabeeb official risk matrix until HIRARC procedure is mapped.
 
-1. Scope of this chapter
-2. Key definitions
-3. Controls (MCR-linked)
-4. Worked examples / figures
-5. System differences (T&F / Cuplok / Ringlock) where relevant
-6. Verification Log
-7. Honest gaps
+| Score | Severity | Likelihood | Detection difficulty |
+|-------|----------|------------|----------------------|
+| 1–3 | Minor injury / near miss | Rare | Obvious before use |
+| 4–6 | Lost time / serious | Occasional | Needs inspection skill |
+| 7–10 | Fatality / multi-fatality / major collapse | Foreseeable without control | Hidden until failure |
 
-## Verification Log
+## 2. Candidate modes (training + WAH grounded)
+
+| ID | Failure mode | S | L | D | RPN | Key MCR controls |
+|----|--------------|---|---|---|-----|------------------|
+| F1 | Fall — missing/incomplete edge protection | 9 | 6 | 5 | **270** | 021, 028–030, 049 |
+| F2 | Collapse — overload / wrong duty class | 10 | 5 | 6 | **300** | 015, 054, 029 |
+| F3 | Collapse — missing/removed ties | 10 | 5 | 6 | **300** | 042, Ch11, 060 |
+| F4 | Collapse — bad foundation / sole | 9 | 5 | 5 | **225** | 005–007, 033 |
+| F5 | Collapse — wrong coupler / putlog misuse | 9 | 5 | 7 | **315** | 008–011, 034 |
+| F6 | Struck-by — dropped tools/materials | 8 | 6 | 4 | **192** | 047, 048, 031, 061 |
+| F7 | Fall — ladder misuse / no extension | 8 | 5 | 4 | **160** | 023, 055 |
+| F8 | Use of red/incomplete scaffold by user | 9 | 4 | 3 | **108** | 028, 029, 060 |
+| F9 | Mobile tower move occupied / unlocked | 9 | 4 | 4 | **144** | 019, 056 |
+| F10 | Cantilever over-reach without design | 9 | 3 | 6 | **162** | 058, 045, 059 |
+
+## 3. Priority focus for encyclopedia & training
+
+Highest RPN cluster: **F5 coupler misuse**, **F2/F3 collapse**, **F1 fall**.  
+Map training emphasis and future audit checklists to these first.
+
+## 4. Detection controls
+
+- Pre-use inspection + tag discipline (Ch17).  
+- Coupler class literacy (Ch06).  
+- Duty class literacy (Ch09).  
+- Never-rules card (Appendix G).  
+
+## 5. Verification Log
 
 | Check | Result |
 |-------|--------|
-| Numbers dual-model verified | Not started |
-| Citations primary | Not started |
-| MCR rows present | Seed only |
+| RPN arithmetic shown | Yes (products in table) |
+| Not claimed as official Anabeeb HIRARC | Yes |
+| Claude | Skipped |
 
-## Honest Gaps
+## 6. Honest gaps
 
-- Production prose not written.
-- Numbers remain Drafting until truth pass.
-- `[INTERNAL GAP – human source required]` for Anabeeb/client procedures.
-
----
-*Do not promote training exam content from this stub.*
+No historical Anabeeb incident rates (**GAP-006**); scores will change with site data.

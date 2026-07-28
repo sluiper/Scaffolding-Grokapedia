@@ -1,42 +1,59 @@
 # Chapter 11 — Scaffold Ties
 
-**Status:** Stub (v0.1.0-scaffold)  
-**MCR rows:** See MASTER_CONTROL_REGISTER.md (all Drafting)  
-**Source seed:** Anabeeb Module-1 PPTX where applicable
+**Status:** Production draft v0.4  
+**Date:** 28 July 2026  
+**Seed:** PPTX-M1 s45–s47, s58  
 
-## Purpose
+## MCR Mapping
 
-Box, lip, through, drill/anchor — MCR-042
+MCR-012, 034, 042 · GAP-015 (tie duty quantitative).
 
-## MCR Mapping (to complete at production draft)
+---
 
-| MCR-ID | Control summary | Status in MCR |
-|--------|-----------------|---------------|
-| — | Populate when drafting | Drafting |
+## 1. Purpose of ties
 
-## Outline (production draft will expand)
+Ties connect the scaffold to a **permanent structure** so the scaffold cannot move away (or sway excessively). Tie duty is the **tension (and often push/pull) load** each tie must resist. Duty depends on **vertical & horizontal spacing** and frequency. [CITATION: PPTX-M1 s46]
 
-1. Scope of this chapter
-2. Key definitions
-3. Controls (MCR-linked)
-4. Worked examples / figures
-5. System differences (T&F / Cuplok / Ringlock) where relevant
-6. Verification Log
-7. Honest gaps
+**GAP-015:** No numeric tie-load table in Module-1 — do not invent kN values.
 
-## Verification Log
+## 2. Tie types (Module-1)
+
+| Type | Description |
+|------|-------------|
+| **Box tie** | Tubes & couplers tightly fixed around all sides of column or I-beam |
+| **Lip tie** | L-shaped arrangement when full box not possible |
+| **Through tie** | Tie tubes through window/opening |
+| **Drill / cast-in tie** | Anchors drilled into building or cast in |
+
+Scaffold is tied with tie tubes connected to posts or ledgers with **right-angle couplers**. [CITATION: PPTX-M1 s46–s47]
+
+## 3. Connection quality (good vs bad)
+
+| Good | Bad |
+|------|-----|
+| Girder couplers **in pairs** + **check (safety) couplers** | Girder not paired / no check |
+| Right-angle couplers for tube-to-tube ties as designed | Double couplers used on structural sections |
+
+**MCR-012, 034, 042.**
+
+## 4. Underhung / structural clamp context
+
+When scaffold hangs from I-beams, uprights form a **tie around the section**; trapeze assist ≤ **600 mm** from ledger (**MCR-040**). That is a hang configuration, not a façade box tie — but coupler pair discipline still applies.
+
+## 5. Operational rules [SYNTHESIS]
+
+1. Do not remove ties without scaffolders and temporary stability plan.  
+2. Prefer ties near **node points**.  
+3. Report damaged anchors/ties → red tag / stop use as appropriate.  
+4. Engineered scaffolds: follow design tie schedule over training generic.
+
+## 6. Verification Log
 
 | Check | Result |
 |-------|--------|
-| Numbers dual-model verified | Not started |
-| Citations primary | Not started |
-| MCR rows present | Seed only |
+| No invented tie kN | Yes — GAP-015 |
+| Coupler rules cross-linked | Yes |
 
-## Honest Gaps
+## 7. Honest gaps
 
-- Production prose not written.
-- Numbers remain Drafting until truth pass.
-- `[INTERNAL GAP – human source required]` for Anabeeb/client procedures.
-
----
-*Do not promote training exam content from this stub.*
+TG20/NASC tie spacing tables not loaded; Aramco tie matrices not in-repo.

@@ -10,7 +10,7 @@
 | ATC-SCAF-ADV | Advanced / Complex Structures | TBD | `ATC-SCAF-ADV/` | 0.0-stub |
 | ATC-SCAF-INSP | Scaffold Inspector | TBD | `ATC-SCAF-INSP/` | 0.0-stub |
 | ATC-SCAF-SUP | Supervisor / Team Leader | TBD | `ATC-SCAF-SUP/` | 0.0-stub |
-| ATC-SCAF-AWARE | Site User Awareness | ½ day target | `ATC-SCAF-AWARE/` | 0.0-stub |
+| ATC-SCAF-AWARE | Site User Awareness | ½ day | `ATC-SCAF-AWARE/` | **0.2-draft** |
 | ATC-SCAF-VOC | Verification of Competency | 1 day target | `ATC-SCAF-VOC/` | 0.0-stub |
 
 ## Build gate (same as HPWJ)
