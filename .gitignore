@@ -1,0 +1,13 @@
+.DS_Store
+*.pptx
+*.PPTX
+*.pdf
+*.PDF
+~$*
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.mov
+*.mp4
