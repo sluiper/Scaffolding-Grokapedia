@@ -1,3 +1,89 @@
+## research-packs-and-stubs – 28 July 2026 (draft/campaign-max-stack-v0.2)
+
+### Research packages
+- **RP-TIE/PUBLIC_HARVEST.md** — tie types, coupler connection rules, stability ratios; GAP-015 no invented kN.
+- **RP-INSP/PUBLIC_HARVEST.md** — WAH + PPTX tags/pre-use; GAP-004 reinspection still open.
+- **RP-TRN/SOURCE_INVENTORY.md** — ATC-SCAF packs mapped to Module-1 slide bands + MCR clusters.
+- **RP-CLI/SOURCE_INVENTORY.md** — Aramco CSM-II partial from PPTX + primary CSM gap list.
+- RP-TIE / RP-INSP SOURCE_INVENTORY expanded from stubs.
+
+### Manufacturer stubs (Summary.md only; no manuals in-repo)
+- `references/manufacturers/Layher_Ringlock/`
+- `references/manufacturers/Cuplok/`
+- `references/manufacturers/Generic_Tube_Fitting/`
+- `references/manufacturers/Safetech/` (not scaffold OEM — HPWJ PPE pointer)
+
+### Training / field cards
+- `training/MCR_EXAM_EXTRACT.md` — high-frequency MCR rows for ATC exams; watermark **DRAFTING — not Visible**.
+- `docs/appendices/Appendix_F_Pre_Use_Inspection_Quick_Card.md` — bilingual EN/AR pointer to pre-use checklist template.
+
+### Inventory
+- `docs/research/inventory/MASTER_SOURCE_INVENTORY.md` updated (packages, manufacturers, exam extract).
+
+### Not done
+- Still **0 MCR Visible**; no primary EN/TG20/CSM PDFs; SWP-019 still missing.
+
+---
+
+## draft/campaign-max-stack-v0.2 — Slice thin-section deepen – 28 July 2026
+
+### Priority thin-section expansions (v0.5 structure)
+- `docs/07_Scaffold_Terminology.md` — EN/AR bilingual top-20 term table; full glossary; system-language caution; guardrail language conflict; worked disambiguation.
+- `docs/11_Scaffold_Ties.md` — good/bad connection tables; inspection checklist T1–T10; worked I-beam example; failure modes; no invented tie kN (GAP-015).
+- `docs/12_Bracing_Arrangements.md` — independent vs free-stand/mobile matrix; face-brace line worked example; plan-brace rules; bad-practice family.
+- `docs/08_Scaffold_Types_and_Proprietary_Systems.md` — full markdown selection flowchart steps [1]–[7]; compact decision table; worked mobile H/B pick.
+- `docs/27_Maintenance_Storage_and_Material_Control.md` — pre-use material reject criteria R1–R22 mapped to MCR; yard worked example.
+- `docs/28_Emergency_Response.md` — roles matrix (workers through engineer/client); scenario table; post-event structural path; partial-collapse roles example.
+
+### Constraints observed
+- MCR-first; existing MCR IDs only; [CITATION]/[DERIVED]/[SYNTHESIS] tags.
+- No fake primary-standard clause numbers; no Drafting→Visible; no self-grading language.
+- Still **0 Visible** MCR rows; Claude verify skipped per campaign direction.
+
+---
+
+## v0.5.1-draft — 28 July 2026 — Part 5 deepen (local)
+
+### Chapters 21–28
+Deepened to production draft v0.6 structure (MCR mapping, verification log, honest gaps):
+- 21 Regulatory matrix, 22 Engineering gate, 23 Weather/SIMOPS
+- 24 Incident library (composites only), 25 Human factors, 26 Lessons learned
+- 27 Material control, 28 Emergency response
+
+### Still
+- **0 Visible** MCR rows
+- No Claude Verification Report
+- GAP-001 SWP-019, GAP-006 incidents, GAP-009 wind still open
+
+---
+
+## mac-goldmine-harvest – 28 July 2026 (multi-AI, local)
+
+### Source materials pack
+- `references/source_materials/MAC_HARVEST_2026-07-28.md` — Mac inventory.
+- `ANABEEB_Scaffold_Basic_Module1_Numeric_Harvest.md` — full numeric card from 66-slide seed deck.
+- **`ARAMCO_CSM_II_From_Training_Deck.md`** — Aramco CSM-II duty ratings (1.2 / 2.4 / >2.4 kN/m²) + cantilever **3 m** design gate **as quoted on deck**; full CSM PDF still not on Mac.
+- Logged coupler SWL conflict (9.4 vs 9.1 kN) and N vs kN/m² unit caution.
+- No new Visible MCR; harvest supports existing Drafting stack.
+
+### Process
+- Campaign log + MASTER_SOURCE_INVENTORY updated.
+
+---
+
+## family-standard-alignment – 28 July 2026 (local)
+
+### Process parity
+- Linked `AGENTS.md` / `PROCESS.md` / `FAMILY.md` to `~/projects/GROKAPEDIA_STANDARD.md` v1.0.
+- Added `docs/research/inventory/SECTION_HEALTH_SHEET.md` and `MCR_RESTATEMENT_MAP.md`.
+- Honest structure note: Ch21–28 are thin/early drafts (filenames locked).
+- README maturity **L2**; training gate reaffirmed (0 Visible).
+
+### Not done
+- Claude Verification Report; SWP-019; primary EN/TG20 PDFs; any Visible promotion.
+
+---
+
 # CHANGELOG
 
 ## draft/campaign-max-stack-v0.2 (v0.4 no-Claude continue) – 28 July 2026
