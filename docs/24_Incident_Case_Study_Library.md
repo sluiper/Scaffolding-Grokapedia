@@ -1,63 +1,108 @@
-# Section 24 — Incident Case Study Library
+# Chapter 24 — Incident Case Study Library
 
-**Status:** Production draft v0.5 — **composites only** (no Anabeeb real cases yet — GAP-006)
+**Status:** Production draft v0.6  
+**Version:** v0.5.1-draft (28 July 2026)  
+**Branch:** `draft/campaign-max-stack-v0.2`
 
-## How to use
+## MCR Mapping
 
-Each case is a **teaching composite** for toolbox talks. Tag [SYNTHESIS]. Replace with real Anabeeb cases when supplied.
+Lessons map to MCR-015/054, 016–020, 028–029, 047–048, 060–062, and FMEA Ch19.
 
 ---
 
-### Case C-01 — User on red tag
-**What:** Craft climbed red-tagged incomplete scaffold to “finish a small job.”  
-**Outcome:** Fall from open edge.  
-**Controls:** MCR-028/029/060; barricade; supervisor enforcement.
+## 1. Rules for this library
 
-### Case C-02 — Putlog used as structural joint
-**What:** Putlog substituted for double at ledger-standard under load.  
-**Outcome:** Slip/failure; partial collapse.  
-**Controls:** MCR-010; coupler literacy Ch06.
+1. **No fake Anabeeb cases.** Real Anabeeb incidents = **GAP-006**.  
+2. Public / composite cases are labelled **[COMPOSITE]** or **[PUBLIC]** with source if public.  
+3. Each case ends with **controls that would have applied** using MCR IDs.  
+4. Cases are for training discussion after human freeze — not for blaming.
 
-### Case C-03 — Overload “just materials”
-**What:** Bricks stacked on Class 2 platform.  
-**Outcome:** Board failure / excessive deflection.  
-**Controls:** MCR-015/054; supervisor gate SUP.
+---
 
-### Case C-04 — Ties removed for “access”
-**What:** Ties stripped on one elevation without temporary stability.  
-**Outcome:** Scaffold moved off building; near collapse.  
-**Controls:** Ch11; MCR-060; design sequence.
+## 2. Composite case A — Missing midrail during modify [COMPOSITE]
 
-### Case C-05 — Mobile tower moved occupied
-**What:** Tower pushed with worker on top.  
-**Outcome:** Overturn/fall.  
-**Controls:** MCR-019/056.
+**What happened (pattern):** During board change-out, midrail left open; worker stepped through.  
 
-### Case C-06 — Gin wheel overload
-**What:** >50 kg lifted on training-limit wheel.  
-**Outcome:** Rope/support failure; struck-by.  
-**Controls:** MCR-031; drop zone MCR-048.
+**Controls that apply here:**
 
-### Case C-07 — Sole boards as deck
-**What:** Sole timber reused as platform board.  
-**Outcome:** Fracture under load.  
-**Controls:** MCR-007.
+| Control | MCR |
+|---------|-----|
+| Temporary edge protection / hierarchy | MCR-030 |
+| Only scaffolders modify | MCR-060 |
+| Tag status reflects restricted work | MCR-028 |
+| Sequence in design for incomplete edges | MCR-045 / Ch22 |
 
-### Case C-08 — Cantilever freestyle >3 m
-**What:** Long cantilever without design.  
-**Outcome:** Raker slip/bending failure.  
-**Controls:** MCR-058/059/045.
+**Learning ID:** LL-S01 (Ch26)
 
-### Case C-09 — Ladder short of landing
-**What:** Ladder flush with platform; no handhold.  
-**Outcome:** Fall at access.  
-**Controls:** MCR-023.
+---
 
-### Case C-10 — Tools without lanyard
-**What:** Spanner dropped into process area.  
-**Outcome:** Struck-by / process incident.  
-**Controls:** MCR-047/048.
+## 3. Composite case B — Duty class confusion [COMPOSITE]
 
-## Verification
+**What happened (pattern):** Materials stacked on “light duty” platform; local collapse of boards/ledgers.  
 
-No claim these are real Anabeeb statistics. **GAP-006** open.
+**Controls:**
+
+| Control | MCR |
+|---------|-----|
+| Duty class known and marked | MCR-015 / 054 |
+| User briefing on duty | Ch17 / MCR-029 |
+| Dual system interface | GAP-019 / Ch21 |
+
+**Learning ID:** LL-S02, LL-S09
+
+---
+
+## 4. Composite case C — Mobile tower shifted with forklift [COMPOSITE]
+
+**What happened (pattern):** Tower moved with machine; overturn or person injury.  
+
+**Controls:**
+
+| Control | MCR |
+|---------|-----|
+| No machine shift of scaffold | MCR-062 |
+| Wheels locked; height ratio | MCR-019 / 056 |
+| No persons on tower while moving | MCR-019 |
+
+**Learning ID:** LL-S06
+
+---
+
+## 5. Composite case D — Dropped tool from hop-up [COMPOSITE]
+
+**What happened (pattern):** Hand tool fell from height; struck worker below.  
+
+**Controls:**
+
+| Control | MCR |
+|---------|-----|
+| Tool lanyards mandatory | MCR-047 |
+| Drop zone barricade | MCR-048 |
+| Toe-boards / screens as applicable | MCR-030 |
+
+**Learning ID:** linked Ch23 SIMOPS
+
+---
+
+## 6. How to add a real case (when GAP-006 closes)
+
+```
+### Case ANB-YYYY-### 
+**Source:** [incident number]
+**Facts:** …
+**MCR controls that failed or were absent:** …
+**Register changes:** new Drafting rows if needed
+**Training feed:** ATC-SCAF-BASIC / SUP / VOC
+```
+
+---
+
+## Verification Log
+
+| Date | Reviewer | Scope | Result |
+|------|----------|-------|--------|
+| 28 Jul 2026 | Grok | All cases composite; MCR links present | Self-check only |
+
+## Honest Gaps
+
+GAP-006 Anabeeb incidents; public investigation PDFs not yet harvested systematically.

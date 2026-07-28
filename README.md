@@ -1,15 +1,17 @@
 # Anabeeb Scaffolding Encyclopedia (Grokapedia)
 
-**Version:** v0.5.0-draft  
-**Status:** Max-stack continue — Ch01–28 + all six ATC-SCAF packs 0.2; gap catalog GAP-001–022; MCR ~66 Drafting; **0 Visible**  
-**Last Updated:** 28 July 2026  
-**Location:** `~/projects/Scaffolding-Grokapedia` · https://github.com/sluiper/Scaffolding-Grokapedia
+**Version:** v0.5.1-draft  
+**Family maturity:** **L2** (`~/projects/GROKAPEDIA_STANDARD.md`)  
+**Status:** Max-stack continue — Ch01–20 production drafts; Ch21–28 thin; ATC-SCAF packs early 0.2; gap catalog GAP-001–022; MCR ~66 Drafting; **0 Visible**  
+**Last Updated:** 28 July 2026 · **Multi-AI campaign** active
+  
+**Location:** `~/projects/Scaffolding-Grokapedia` (local-first this pass)
 
 ## Purpose
 
 A practical, high-depth, single-source reference for industrial scaffolding operations, safety, components, inspection, training, and best practices, built for Anabeeb use in the Eastern Province, KSA.
 
-Same operating system as **HPWJ-Grokapedia**: Master Control Register (MCR) as SSOT, dual-model Grok/Claude workflow, draft-branch discipline, human gate on Drafting → Visible.
+Same operating system as the **Grokapedia family** (`FAMILY.md`): Master Control Register (MCR) as SSOT, dual-model Grok/Claude workflow, draft-branch discipline, human gate on Drafting → Visible.
 
 ## Current Status (Honest)
 
@@ -17,15 +19,15 @@ Same operating system as **HPWJ-Grokapedia**: Master Control Register (MCR) as S
 |------|--------|
 | Repo + process files (`AGENTS` / `WORKFLOW` / `PROCESS`) | Live |
 | Encyclopedia chapter map | Live (`docs/00_Encyclopedia_Structure.md`) |
-| Master Control Register | **v0.5.0-draft — ~66 Drafting rows, 0 Visible** |
+| Master Control Register | **v0.6.0-draft — ~66 Drafting rows, 0 Visible** |
 | Gap catalog | `docs/research/inventory/GAP_CATALOG.md` |
-| Production chapter prose | **Ch01–28 drafts** |
-| Training packs | **All six ATC-SCAF-* at 0.2-draft** |
+| Production chapter prose | **Ch01–28 production drafts** (Part 5 v0.6 deepen); all unverified |
+| Section health sheet | `docs/research/inventory/SECTION_HEALTH_SHEET.md` |
 | Anabeeb WAH procedure | Extracted (`references/standards/Anabeeb_AIMS_L3_HSE_P010_…`) |
 | Scaffold SWP-019 | Planned on master list — **file not found** |
 | Public harvest | RP-STD / RP-COMP / RP-LOAD secondary harvest live |
-| Training packs | Index + course stubs only (correct gate) |
-| Remote / GitHub | Campaign step 5 |
+| Training packs | All six ATC-SCAF-* present as early 0.2; **gate still holds** (0 Visible) |
+| Remote / GitHub | Exists; this pass is local-first |
 
 ## Source Material (Human-Gated)
 
@@ -63,11 +65,11 @@ Additional sources to integrate later (many internal / paid):
 
 ## Relationship to HPWJ-Grokapedia
 
-| | HPWJ | Scaffolding |
-|--|------|-------------|
-| Domain | High-pressure water jetting | Temporary works / access scaffold |
-| Process | Dual-model MCR-first | **Same** (copied) |
-| Training codes | ATC-HPWJ-* | ATC-SCAF-* |
-| Maturity | v8.6+ operational | v0.1 scaffold |
+| | HPWJ | Scaffolding | Rigging |
+|--|------|-------------|---------|
+| Domain | HPWJ | Temporary works / scaffold | Rigging & lifting |
+| Process | Dual-model MCR-first | **Same family standard** | Same |
+| Training codes | ATC-HPWJ-* | ATC-SCAF-* | ATC-RIG-* |
+| Maturity (family L0–L5) | L4–L5 | **L2** | L1–L2 |
 
-**This is a working scaffold, not a finished encyclopedia.**
+**This is a working encyclopedia at L2, not a finished field-authoritative product (0 Visible).**

@@ -1,7 +1,8 @@
 # AGENTS.md — Permanent Operating Schema for Scaffolding-Grokapedia
 
-**Version:** 1.0 (28 July 2026)  
+**Version:** 1.1 (28 July 2026)  
 **Origin:** Copied and domain-adapted from HPWJ-Grokapedia AGENTS.md v1.2  
+**Family standard:** `~/projects/GROKAPEDIA_STANDARD.md` (binding process layout for all Anabeeb Grokapedias)  
 **Purpose:** Make both Grok and Claude produce consistent, MCR-first, source-grounded, safety-critical scaffolding content. This file overrides any one-off chat prompts. See also PROCESS.md.
 
 ## Core Philosophy

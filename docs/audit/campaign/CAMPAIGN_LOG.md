@@ -1,5 +1,21 @@
 # Campaign Log — Scaffolding-Grokapedia
 
+## Campaign 2 — Mac gold-mine harvest (28 July 2026)
+
+**Agent:** Grok (parallel with HPWJ + Rigging)  
+**Human ask:** Search Mac; summarise; review Aramco CSM and place as example data.
+
+| Item | Result |
+|------|--------|
+| Module-1 PPTX full re-extract | 66 slides → `ANABEEB_Scaffold_Basic_Module1_Numeric_Harvest.md` |
+| **Aramco CSM-II (secondary)** | Duty table 1.2 / 2.4 / >2.4 + cantilever 3 m **as quoted on s38/s44** → `ARAMCO_CSM_II_From_Training_Deck.md` |
+| Full CSM PDF | **Not on Mac** — still primary GAP |
+| Conflicts re-logged | Coupler 9.4 vs 9.1 kN; N vs kN/m² unit wording on duty slide |
+
+**Deliverables:** source_materials harvest pack + CHANGELOG + inventory update. No Visible MCR.
+
+---
+
 ## Campaign 0 — Local scaffold (28 July 2026)
 
 **Branch:** local `main`  
@@ -124,3 +140,44 @@ Human: ignore Claude, keep building.
 
 ### Still open
 GAP-001, 004, 007, 009, 012, 019, real incidents, primary PDFs
+
+---
+
+## Campaign 2 — Family standard alignment (28 July 2026)
+
+**Mode:** Local only (no push this pass)  
+**Goal:** Parity with family standard v1.0 across inventory and honesty.
+
+| Item | Result |
+|------|--------|
+| Family link | `FAMILY.md` + AGENTS/PROCESS |
+| SECTION_HEALTH_SHEET | Live |
+| MCR_RESTATEMENT_MAP | Seed live |
+| Ch21–28 | Filenames confirmed; thin draft honesty in structure map |
+| Claude VR | Still outstanding |
+| Visible rows | Still **0** |
+
+---
+
+## Campaign 3 — Part 5 deepen v0.5.1 (28 July 2026)
+
+**Mode:** Local only  
+**Done:** Ch21–28 rewritten to production draft v0.6 depth (still unverified, 0 Visible).
+
+
+
+---
+
+## Campaign 1e — Multi-AI parallel build (28 July 2026)
+
+### Parallel agents
+1. **Disk gap hunt** — found SSU-PRO-001 listed (GAP-001b), SATORP STORP orientation numbers, form pack list SSU.FRM.001–009
+2. **Thin-section deepen** — Ch07/08/11/12/27/28 expanded (EN/AR terms, inspection lists, flowcharts)
+3. **Research packages** — RP-TIE/INSP/TRN/CLI; manufacturer stubs; MCR_EXAM_EXTRACT; Appendix F
+4. **Orchestrator** — PTW/PPE MCR-066–069; SATORP MCR-070–074; family inventory files
+
+### MCR
+~75 Drafting rows (066–074 new cluster). **Still 0 Visible.**
+
+### Highest-value human ask
+Supply **SSU-PRO-001** Scaffolding Procedure Rev.3 (Blueprint says exists) + SSU forms.

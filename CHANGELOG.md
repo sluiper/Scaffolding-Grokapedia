@@ -138,6 +138,16 @@ Deepened to production draft v0.6 structure (MCR mapping, verification log, hone
 
 **This changelog prioritises truth over presentation.**
 
+## draft/campaign-max-stack-v0.2 (v0.6 multi-AI) – 28 July 2026
+
+### Multi-AI parallel campaign
+- Disk gap hunt: SSU-PRO-001 listed (GAP-001b), SATORP STORP extract, SSU.FRM.001–009 named (binaries missing).
+- Thin chapters deepened (07/08/11/12/27/28) with EN/AR glossary, flowcharts, reject criteria, emergency roles.
+- Research packs RP-TIE/INSP/TRN/CLI; manufacturer stubs; `training/MCR_EXAM_EXTRACT.md`; Appendix F.
+- PTW/PPE → MCR-066–069; SATORP/SSU/ATTC → MCR-070–074.
+- Family scaffolding: FAMILY.md, SECTION_HEALTH_SHEET, MCR_RESTATEMENT_MAP, numeric harvests.
+- Encyclopedia **v0.6.0-draft**. **0 Visible.**
+
 ## draft/campaign-max-stack-v0.2 (v0.5 no-Claude) – 28 July 2026
 
 ### Full training suite + supporting sections

@@ -18,7 +18,11 @@
 
 ## 1. Planning sequence (before erect or use)
 
-1. **Valid work permit** as required by site PTW system (Anabeeb master list: SWP-001). [INTERNAL GAP: scaffold-specific PTW linkage — GAP-021]  
+**Anabeeb PTW (client premises):** No work without valid client PTW; authorized issuer/receiver; joint site inspection; typically single-shift; void if conditions change (**MCR-066–068**). [CITATION: AIMS-L2-HSE-P-007]
+
+
+
+1. **Valid work permit** as required by site PTW system (Anabeeb master list: SWP-001). [INTERNAL GAP: scaffold-specific PTW linkage — GAP-021 / **MCR-066–068** (PTW extract)]  
 2. **Risk assessment / JSA** for work at height and scaffold task.  
 3. **Fall Protection Plan** when free-fall ≥ 1.8 m (WAH).  
 4. Confirm **duty class** and system type (MCR-015 / 054 / 039).  
@@ -86,7 +90,7 @@ Scaffolding, mobile and suspended scaffolds are recognised temporary platforms u
 | Check | Result |
 |-------|--------|
 | WAH + PPTX merged without inventing wind number | Yes |
-| PTW linkage marked gap | GAP-021 |
+| PTW linkage marked gap | GAP-021 / **MCR-066–068** (PTW extract) |
 | Claude verify | Pending |
 
 ## 9. Honest gaps

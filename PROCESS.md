@@ -3,7 +3,8 @@
 **Purpose:** Living record of how Grok + Claude + Human (Jacques) work together on safety-critical technical encyclopedias. Copied from HPWJ-Grokapedia and applied to Scaffolding.
 
 **Last Updated:** 28 July 2026  
-**Status:** Locked at process level; encyclopedia content at v0.1 scaffold
+**Family standard:** `~/projects/GROKAPEDIA_STANDARD.md` v1.0  
+**Status:** Process locked; encyclopedia at L2 (Ch01–20 production drafts, Ch21–28 thin, **0 Visible**)
 
 ---
 
@@ -98,6 +99,8 @@
 - [x] Grok T1 truth pass on high-risk MCR (0 Visible)
 - [x] Chapter 01 production draft on campaign branch
 - [ ] Claude Verification Report on Ch01 + T1
+- [x] Family standard link + SECTION_HEALTH + restatement map
+- [ ] Human: supply SWP-019 when issued; primary EN/TG20 PDFs
 - [ ] Human supplies SWP-019 + client matrices when available
 - [ ] Primary standards PDFs (GAP-007)
 - [ ] Selective Drafting → Visible after human + Claude

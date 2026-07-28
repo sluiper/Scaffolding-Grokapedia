@@ -1,4 +1,4 @@
-# MASTER CONTROL REGISTER (Living Document) — v0.3.0-draft
+# MASTER CONTROL REGISTER (Living Document) — v0.6.0-draft
 
 **This is the single source of truth for the entire Scaffolding Encyclopedia.**
 
@@ -122,6 +122,19 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-065 | Board width typo flag | Nominal board width **225 mm** (PPTX s20 OCR/text error “225m” must never be taught) | PPTX-M1 s20; BS2482-sec | Drafting | GAP-011 documentation |
 
 
+| MCR-066 | Client PTW mandatory | On client premises, **no scaffold erect/modify/dismantle (and use where client requires) without valid client PTW**; issuer+receiver authorized; joint site inspection; permit defines location limits (not whole plant on one permit); associated certificates alone insufficient | AIMS-L2-HSE-P-007 PTW | Drafting | New — PTW extract 28 Jul 2026; closes GAP-021 partial |
+| MCR-067 | PTW duration & closeout | Work permits normally for **single operating shift**; close on completion or expiry; re-permit next shift as required | AIMS-L2-HSE-P-007 | Drafting | New |
+| MCR-068 | PTW void on change/emergency | Void PTW and stop work if conditions/scope change affecting safety; cancel on emergency; issue new permit when restarting | AIMS-L2-HSE-P-007 | Drafting | New |
+| MCR-069 | PPE directed by PTW/supervisor | PPE (including harness as directed) as stipulated on PTW and by site supervisor; issued as needed for job | AIMS-L2-HSE-P-006 PPE | Drafting | New — complements MCR-037/028 |
+
+
+| MCR-070 | SATORP tag+harness (client) | **SATORP sites** (STORP orientation): Red = not safe — **erectors only with full body harness**; Green = inspected safe (orientation: harness not required for general users on completed platform — **does not waive Anabeeb WAH 100% tie-off** where incomplete/edge risk remains); Yellow = incomplete/modified/hazard — **full body harness required** | STORP Safety Orientation 2025 s50/s56 | Drafting | Client matrix only. **GAP-028** dual regime with Anabeeb MCR-049 |
+| MCR-071 | Fall clearance teaching formula | **RD = LL + DD + HH + C**; example RD **17.5 ft** (LL 6 + DD 3.5 + HH 6 + C 2 ft). Teaching only — manufacturer SRL/lanyard + client standard govern field | STORP 2025 s54 | Drafting | Secondary example; not Visible without primary |
+| MCR-072 | No modify while in use | Scaffold requires height/scope plan + supervision of erect/dismantle; **no unauthorised modification while scaffold in use** | STORP 2025 s55; aligns MCR-060 | Drafting | Client TA lesson |
+| MCR-073 | SSU-PRO-001 document set | Anabeeb document control targets **SSU-PRO-001 Scaffolding Procedure** (Rev.3 listed) + SSU.FRM.001–009 (handover, request, underhung/mobile/base checklists, register, delivery notes incl. Layher) | AIMS Blueprint SSU sheet 2026 | Drafting | **GAP-001b** — binaries missing; pairs MCR-053 SWP-019 |
+| MCR-074 | ATTC theory pass & refresh | Theory pass **≥ 80%**; refresher **every 2 years** (or client/incident/procedure change) | ATTC-PRO-001 | Drafting | Competency seed for ATC-SCAF packs |
+
+
 ## Conflicts Log
 
 | # | Issue | Resolution |
@@ -145,4 +158,4 @@ A row may move Drafting → Visible only when:
 
 ## Row Count
 
-**~66 control rows** (incl. MCR-021a, MCR-054–065) — **all Drafting**. **Zero Visible.**
+**~75 control rows** (incl. MCR-021a, MCR-054–074) — **all Drafting**. **Zero Visible.**
