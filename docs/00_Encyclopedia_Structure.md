@@ -1,7 +1,7 @@
 # Scaffolding Encyclopedia (Grokapedia) – Structure & Status
 
-**Version 0.4.0-draft – 28 July 2026**  
-**Status: Full operational chapter set Ch01–20 production drafts (Grok-only continue). AWARE pack 0.2. MCR still 0 Visible.**
+**Version 0.5.0-draft – 28 July 2026**  
+**Status: Ch01–28 production drafts; all six ATC-SCAF packs at 0.2-draft; MCR still 0 Visible. Grok-only.**
 
 ## Part 1 – Front Matter & Fundamentals
 
@@ -47,14 +47,14 @@
 
 | Sec | Title | Status |
 |-----|-------|--------|
-| 21 | Regulatory & Client Matrix | Planned → `references/standards/` |
-| 22 | Design Principles & When Engineering Is Required | Planned |
-| 23 | Weather, Environmental & SIMOPS Interfaces | Planned |
-| 24 | Incident Case Study Library | Planned |
-| 25 | Human Factors & Ergonomics | Planned |
-| 26 | Lessons Learned | Planned |
-| 27 | Maintenance, Storage & Material Control | Planned |
-| 28 | Emergency Response (collapse / fall / struck-by) | Planned |
+| 21 | Regulatory & Client Matrix | **Production draft v0.5** |
+| 22 | Design Principles & When Engineering Is Required | **Production draft v0.5** |
+| 23 | Weather, Environmental & SIMOPS Interfaces | **Production draft v0.5** |
+| 24 | Incident Case Study Library | **Production draft v0.5** (composites) |
+| 25 | Human Factors & Ergonomics | **Production draft v0.5** |
+| 26 | Lessons Learned | **Production draft v0.5** |
+| 27 | Maintenance, Storage & Material Control | **Production draft v0.5** |
+| 28 | Emergency Response (collapse / fall / struck-by) | **Production draft v0.5** |
 
 ## High-Value Field Toolkit (Planned Appendices)
 
@@ -74,12 +74,12 @@
 
 | Code | Title | Status |
 |------|-------|--------|
-| ATC-SCAF-BASIC | New Scaffolder Basic (Module-1 alignment) | Spec stub |
-| ATC-SCAF-ADV | Advanced / Complex Structures | Spec stub |
-| ATC-SCAF-INSP | Scaffold Inspector | Spec stub |
-| ATC-SCAF-SUP | Supervisor / Team Leader | Spec stub |
+| ATC-SCAF-BASIC | New Scaffolder Basic | **0.2-draft pack** |
+| ATC-SCAF-ADV | Advanced / Complex | **0.2-draft pack** |
+| ATC-SCAF-INSP | Scaffold Inspector | **0.2-draft pack** |
+| ATC-SCAF-SUP | Supervisor / Team Leader | **0.2-draft pack** |
 | ATC-SCAF-AWARE | Site User Awareness | **0.2-draft pack** |
-| ATC-SCAF-VOC | Verification of Competency | Spec stub |
+| ATC-SCAF-VOC | Verification of Competency | **0.2-draft pack** |
 
 ## How to Use This Structure
 

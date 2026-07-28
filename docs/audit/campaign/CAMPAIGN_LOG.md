@@ -110,3 +110,17 @@ GAP-001 SWP-019 · GAP-007 primary PDFs · GAP-004 tag validity · GAP-012 sleev
 - No Claude Verification Report  
 - No Drafting → Visible  
 - AWARE pack pilot risk accepted only by human if used in field before freeze
+
+---
+
+## Campaign 1d — Training suite + Ch21–28 (28 July 2026)
+
+Human: ignore Claude, keep building.
+
+### Delivered
+- All six ATC-SCAF packs at 0.2-draft (BASIC complete with 40Q exam)
+- docs/21–28 supporting sections
+- v0.5.0-draft
+
+### Still open
+GAP-001, 004, 007, 009, 012, 019, real incidents, primary PDFs

@@ -1,5 +1,3 @@
-# ATC-SCAF-INSP
+# ATC-SCAF-INSP — Scaffold Inspector pack (0.2-draft)
 
-Scaffold Inspector
-
-See `00_Course_Specification.md`. Full pack files not started (v0.1 scaffold).
+Spec, trainer guide, workbook, practical checklist, theory exam, assessment record.

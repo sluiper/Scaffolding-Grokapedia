@@ -51,3 +51,11 @@
 - Local git init only.
 
 **This changelog prioritises truth over presentation.**
+
+## draft/campaign-max-stack-v0.2 (v0.5 no-Claude) – 28 July 2026
+
+### Full training suite + supporting sections
+- **ATC-SCAF-BASIC** full pack: trainer guide, workbook, 25-item practical, 40-item exam+key, PPE list.
+- **INSP / SUP / VOC / ADV** packs expanded to 0.2-draft (exams + practicals).
+- **Sections 21–28** production drafts (client matrix pointer, design gate, weather/SIMOPS, 10 composite cases, HF, LL, maintenance, emergency).
+- Encyclopedia **v0.5.0-draft**. Still **0 MCR Visible**.

@@ -1,7 +1,7 @@
 # Anabeeb Scaffolding Encyclopedia (Grokapedia)
 
-**Version:** v0.4.0-draft  
-**Status:** Max-stack continue — Ch01–20 production drafts + AWARE pack; gap catalog GAP-001–022; MCR ~66 Drafting; **0 Visible**  
+**Version:** v0.5.0-draft  
+**Status:** Max-stack continue — Ch01–28 + all six ATC-SCAF packs 0.2; gap catalog GAP-001–022; MCR ~66 Drafting; **0 Visible**  
 **Last Updated:** 28 July 2026  
 **Location:** `~/projects/Scaffolding-Grokapedia` · https://github.com/sluiper/Scaffolding-Grokapedia
 
@@ -17,9 +17,10 @@ Same operating system as **HPWJ-Grokapedia**: Master Control Register (MCR) as S
 |------|--------|
 | Repo + process files (`AGENTS` / `WORKFLOW` / `PROCESS`) | Live |
 | Encyclopedia chapter map | Live (`docs/00_Encyclopedia_Structure.md`) |
-| Master Control Register | **v0.4.0-draft — ~66 Drafting rows, 0 Visible** |
+| Master Control Register | **v0.5.0-draft — ~66 Drafting rows, 0 Visible** |
 | Gap catalog | `docs/research/inventory/GAP_CATALOG.md` |
-| Production chapter prose | **Ch01–20 production drafts** (Grok-only) |
+| Production chapter prose | **Ch01–28 drafts** |
+| Training packs | **All six ATC-SCAF-* at 0.2-draft** |
 | Anabeeb WAH procedure | Extracted (`references/standards/Anabeeb_AIMS_L3_HSE_P010_…`) |
 | Scaffold SWP-019 | Planned on master list — **file not found** |
 | Public harvest | RP-STD / RP-COMP / RP-LOAD secondary harvest live |
