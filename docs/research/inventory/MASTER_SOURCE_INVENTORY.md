@@ -1,6 +1,6 @@
 # Master Source Inventory — Scaffolding Encyclopedia
 
-**Status:** Expanded inventory (campaign max-stack research packs)  
+**Status:** Expanded inventory (campaign max-stack research packs + disk gap hunt)  
 **Date:** 28 July 2026
 
 ## A. In-Hand Local Sources
@@ -11,12 +11,17 @@
 | SRC-ANB-PPTX-002 | Same deck (TVTC pack copy) | `Desktop/TVTC_Site_Visit_Pack/02_Training_Programs/Other_Programs_Summary/` | Training deck | Duplicate of seed |
 | SRC-ANB-WAH-P010 | AIMS-L3-HSE-P-010 Working at Height | `Desktop/TVTC_Site_Visit_Pack/04_Quality_and_Safety/HSE_Procedures_AIMS/` | Controlled procedure | Extracted 28 Jul 2026 → references/standards summary |
 | SRC-ANB-HSE-ML | ANABEEB HSE Procedure Master List Rev01 | same AIMS folder | Register | Lists SWP-019 Scaffolding as **New** (file not present) |
+| SRC-ANB-PTW-P007 | AIMS-L2-HSE-P-007 Permit to Work | TVTC pack + Documents/aimshse | Controlled procedure | Summary in references/standards; MCR-066–068 |
+| SRC-ANB-PPE-P006 | AIMS-L2-HSE-P-006 PPE | TVTC pack + Documents/aimshse | Controlled procedure | Summary; MCR-069 |
+| SRC-ANB-AIMS-BP | AIMS Standard Blue Print 2026 | `Documents/aims/QA/AIMS Standard Blue Print 2026.xlsx` | Document control register | **SSU sheet**: SSU-PRO-001 + FRM.001–009 listed; **binaries not on disk** |
+| SRC-SATORP-STORP-001 | FINAL SAFETY ORIENTATION 2025 Rev 02 | `Documents/Training/STORP TRAINING/` (pptx + pdf) | Client orientation | Tag colours + harness; fall clearance example; TA lessons — secondary |
 | SRC-LOC-SCAF-001 | Mac harvest inventory | `references/source_materials/MAC_HARVEST_2026-07-28.md` | Path map | 28 Jul 2026 multi-AI crawl |
 | SRC-LOC-SCAF-002 | Module-1 numeric harvest card | `references/source_materials/ANABEEB_Scaffold_Basic_Module1_Numeric_Harvest.md` | Extract | Full 66-slide number table |
 | SRC-LOC-SCAF-003 | Aramco CSM-II **as quoted** on deck | `references/source_materials/ARAMCO_CSM_II_From_Training_Deck.md` | Secondary client | Duty 1.2/2.4/>2.4 + cantilever 3 m; **primary CSM PDF not on Mac** |
 | SRC-LOC-SCAF-004 | MCR exam extract (printable) | `training/MCR_EXAM_EXTRACT.md` | Training aid | High-frequency MCR rows only; watermark DRAFTING |
 | SRC-LOC-SCAF-005 | Pre-use inspection checklist | `templates/checklists/Pre_Use_Inspection_Checklist.md` | Template | MCR-mapped draft v0.4 |
 | SRC-LOC-SCAF-006 | Appendix F pre-use quick card | `docs/appendices/Appendix_F_Pre_Use_Inspection_Quick_Card.md` | Field card | Bilingual EN/AR pointer to template |
+| SRC-LOC-SCAF-007 | Disk gap hunt report | `docs/research/inventory/GAP_HUNT_DISK_2026-07-28.md` | Path + extract log | Confirms SWP-019/SSU missing; STORP + Blueprint finds |
 
 ## B. Public / Standards Targets (Not Yet Harvested)
 
@@ -34,9 +39,11 @@
 
 | ID | Document | Status |
 |----|----------|--------|
-| SRC-ANB-OPS-SCAF | Anabeeb scaffolding procedure (if issued) | **[INTERNAL GAP – human source required]** SWP-019 New on master list |
+| SRC-ANB-OPS-SCAF | Anabeeb scaffolding procedure | **[INTERNAL GAP]** Dual target: **SWP-019** (HSE New) + **SSU-PRO-001** (Blueprint listed Rev.3 — file missing) |
+| SRC-ANB-SSU-FRM | SSU.FRM.001–009 (handover, checklists, register, delivery notes) | **[INTERNAL GAP]** Listed only |
 | SRC-ARAMCO-SCAF | Aramco scaffolding requirements | **[INTERNAL GAP]** — partial deck quotes only (SRC-LOC-SCAF-003) |
 | SRC-SABIC-SCAF | SABIC scaffolding requirements | **[INTERNAL GAP]** — WAH cites SHEMS 08.09 FP only |
+| SRC-SATORP-SCAF | SATORP controlled scaffold standard | **[PARTIAL]** — STORP orientation secondary only (SRC-SATORP-STORP-001) |
 | SRC-TVTC | TVTC competency / accreditation context | Partial (TVTC pack exists on Desktop) |
 
 ## D. Research Packages
@@ -58,7 +65,7 @@ Package root: `docs/research/packages/README.md`
 
 | Path | Role | Manual in-repo? |
 |------|------|-----------------|
-| `references/manufacturers/Layher_Ringlock/Summary.md` | Ringlock-class proprietary | **No** |
+| `references/manufacturers/Layher_Ringlock/Summary.md` | Ringlock-class proprietary | **No** (name appears on SSU.FRM.009 title in Blueprint) |
 | `references/manufacturers/Cuplok/Summary.md` | Captive wedge proprietary | **No** |
 | `references/manufacturers/Generic_Tube_Fitting/Summary.md` | EN 39/74 multi-supplier class | **No** (standards-driven) |
 | `references/manufacturers/Safetech/Summary.md` | **Not scaffold OEM** — HPWJ PPE pointer only | N/A |
