@@ -93,10 +93,13 @@
 - [x] Local scaffold in `~/projects/Scaffolding-Grokapedia`
 - [x] Process files locked
 - [x] Chapter map + seed MCR from Module-1 PPTX (all Drafting)
-- [ ] Human supplies Anabeeb scaffold procedure + client matrices
-- [ ] Public standards harvest packages
-- [ ] Dual-model truth pass on MCR seed set
-- [ ] First production chapter on `draft/section-01`
-- [ ] Remote (GitHub) only when human requests
+- [x] Extract Anabeeb WAH procedure (AIMS-L3-HSE-P-010)
+- [x] Public secondary standards harvest (RP-STD/COMP/LOAD)
+- [x] Grok T1 truth pass on high-risk MCR (0 Visible)
+- [x] Chapter 01 production draft on campaign branch
+- [ ] Claude Verification Report on Ch01 + T1
+- [ ] Human supplies SWP-019 + client matrices when available
+- [ ] Primary standards PDFs (GAP-007)
+- [ ] Selective Drafting → Visible after human + Claude
 
 **Start every future encyclopedia at this process level, not from zero.**

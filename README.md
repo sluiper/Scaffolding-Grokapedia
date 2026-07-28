@@ -1,9 +1,9 @@
 # Anabeeb Scaffolding Encyclopedia (Grokapedia)
 
-**Version:** v0.1.0-scaffold  
-**Status:** Local scaffold only — process locked; structure seeded; content not yet production  
+**Version:** v0.2.0-draft  
+**Status:** Max-stack campaign on `draft/campaign-max-stack-v0.2` — WAH extract + public harvest + T1 truth + Ch01 draft; **0 MCR Visible**  
 **Last Updated:** 28 July 2026  
-**Location:** `~/projects/Scaffolding-Grokapedia` (local first; no remote required yet)
+**Location:** `~/projects/Scaffolding-Grokapedia`
 
 ## Purpose
 
@@ -17,10 +17,13 @@ Same operating system as **HPWJ-Grokapedia**: Master Control Register (MCR) as S
 |------|--------|
 | Repo + process files (`AGENTS` / `WORKFLOW` / `PROCESS`) | Live |
 | Encyclopedia chapter map | Live (`docs/00_Encyclopedia_Structure.md`) |
-| Master Control Register | **Seeded Drafting** from Anabeeb basic training module — numbers not yet dual-model verified against primary standards |
-| Production chapter prose | Not started |
-| Training packs | Index + course stubs only |
-| Remote / GitHub | Not configured (local-first by design) |
+| Master Control Register | **v0.2.0-draft — 54 Drafting rows, 0 Visible** (T1 truth pass applied) |
+| Production chapter prose | **Ch01 draft** on campaign branch; Ch02–20 stubs |
+| Anabeeb WAH procedure | Extracted (`references/standards/Anabeeb_AIMS_L3_HSE_P010_…`) |
+| Scaffold SWP-019 | Planned on master list — **file not found** |
+| Public harvest | RP-STD / RP-COMP / RP-LOAD secondary harvest live |
+| Training packs | Index + course stubs only (correct gate) |
+| Remote / GitHub | Campaign step 5 |
 
 ## Source Material (Human-Gated)
 
@@ -49,11 +52,12 @@ Additional sources to integrate later (many internal / paid):
 
 ## Next Steps (Recommended Order)
 
-1. Human supplies internal Anabeeb scaffold procedure + any client matrices (Aramco/SABIC).
-2. Grok: public harvest of EN 39 / EN 74 / BS 2482 / NASC TG20 open notes → research packages.
-3. Dual-model truth pass on every Drafting MCR row before any training exam content.
-4. Promote core MCR rows Visible → open `draft/section-01` and write Chapter 1.
-5. Only then build full ATC-SCAF-* packs (same gate used on HPWJ).
+1. ~~Internal harvest~~ → WAH done; **need SWP-019 + client matrices** when available.
+2. ~~Public secondary harvest~~ → done; **primary PDFs** still GAP-007.
+3. ~~Grok T1 truth pass~~ → done; **Claude Verification Report** next.
+4. Human review Ch01 + selective Drafting → Visible (tags, ladder, duty units candidates).
+5. Ch03 / Ch05–06 / Ch17 production drafts.
+6. Only then build full ATC-SCAF-* packs (same gate used on HPWJ).
 
 ## Relationship to HPWJ-Grokapedia
 

@@ -9,6 +9,8 @@
 |----|-------|----------|------|-------|
 | SRC-ANB-PPTX-001 | New Scaffolder’s Basic Training Program Module-1 | `Desktop/nebosh/scaf/Scaffolding basic training module.pptx` + copy note in `references/source_materials/` | Training deck | 66 slides; primary seed for MCR Drafting rows |
 | SRC-ANB-PPTX-002 | Same deck (TVTC pack copy) | `Desktop/TVTC_Site_Visit_Pack/02_Training_Programs/Other_Programs_Summary/` | Training deck | Duplicate of seed |
+| SRC-ANB-WAH-P010 | AIMS-L3-HSE-P-010 Working at Height | `Desktop/TVTC_Site_Visit_Pack/04_Quality_and_Safety/HSE_Procedures_AIMS/` | Controlled procedure | Extracted 28 Jul 2026 → references/standards summary |
+| SRC-ANB-HSE-ML | ANABEEB HSE Procedure Master List Rev01 | same AIMS folder | Register | Lists SWP-019 Scaffolding as **New** (file not present) |
 
 ## B. Public / Standards Targets (Not Yet Harvested)
 

@@ -1,13 +1,13 @@
 # Scaffolding Encyclopedia (Grokapedia) – Structure & Status
 
-**Version 0.1.0-scaffold – 28 July 2026**  
-**Status: Local scaffold. Process locked. MCR seeded (Drafting only). No production chapters.**
+**Version 0.2.0-draft – 28 July 2026**  
+**Status: Max-stack campaign. MCR T1 truth pass (all still Drafting). Ch01 production draft. WAH extract live.**
 
 ## Part 1 – Front Matter & Fundamentals
 
 | Ch | Title | Status |
 |----|-------|--------|
-| 01 | Introduction, Scope, Purpose & How to Use | Stub |
+| 01 | Introduction, Scope, Purpose & How to Use | **Production draft v0.2** |
 | 02 | Scaffold Fundamentals & Definitions | Stub |
 | 03 | Safety Requirements, Permits, PPE & Planning | Stub |
 | 04 | Global Standards Landscape (EN, BS, NASC/TG20, OSHA comparative, KSA clients) | Stub |
