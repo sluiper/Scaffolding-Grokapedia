@@ -1,7 +1,7 @@
 # Scaffolding Encyclopedia (Grokapedia) – Structure & Status
 
-**Version 0.5.0-draft – 28 July 2026**  
-**Status: Ch01–28 production drafts; all six ATC-SCAF packs at 0.2-draft; MCR still 0 Visible. Grok-only.**
+**Version 0.5.1-draft – 28 July 2026**  
+**Status: Ch01–28 production drafts (Part 5 deepened v0.6); ATC-SCAF packs early 0.2; MCR still 0 Visible. Grok-only.**
 
 ## Part 1 – Front Matter & Fundamentals
 
@@ -43,18 +43,20 @@
 | 19 | Failure Modes & Effects Analysis (FMEA) | **Production draft v0.4** |
 | 20 | Competency Framework, Training & Assessment | **Production draft v0.4** |
 
-## Part 5 – Supporting Sections (Planned)
+## Part 5 – Supporting Sections
 
-| Sec | Title | Status |
-|-----|-------|--------|
-| 21 | Regulatory & Client Matrix | **Production draft v0.5** |
-| 22 | Design Principles & When Engineering Is Required | **Production draft v0.5** |
-| 23 | Weather, Environmental & SIMOPS Interfaces | **Production draft v0.5** |
-| 24 | Incident Case Study Library | **Production draft v0.5** (composites) |
-| 25 | Human Factors & Ergonomics | **Production draft v0.5** |
-| 26 | Lessons Learned | **Production draft v0.5** |
-| 27 | Maintenance, Storage & Material Control | **Production draft v0.5** |
-| 28 | Emergency Response (collapse / fall / struck-by) | **Production draft v0.5** |
+| Sec | Title | File | Status |
+|-----|-------|------|--------|
+| 21 | Regulatory & Client Matrix | `21_Regulatory_and_Client_Matrix.md` | **Production draft v0.6** (also `references/standards/21_…`) |
+| 22 | Design Principles & Engineering Gate | `22_Design_Principles_and_Engineering_Gate.md` | **Production draft v0.6** |
+| 23 | Weather, Environmental & SIMOPS | `23_Weather_Environmental_and_SIMOPS.md` | **Production draft v0.6** |
+| 24 | Incident Case Study Library | `24_Incident_Case_Study_Library.md` | **Production draft v0.6** (composites only) |
+| 25 | Human Factors & Ergonomics | `25_Human_Factors_and_Ergonomics.md` | **Production draft v0.6** |
+| 26 | Lessons Learned | `26_Lessons_Learned.md` | **Production draft v0.6** |
+| 27 | Maintenance, Storage & Material Control | `27_Maintenance_Storage_and_Material_Control.md` | **Production draft v0.6** |
+| 28 | Emergency Response | `28_Emergency_Response.md` | **Production draft v0.6** |
+
+See `docs/research/inventory/SECTION_HEALTH_SHEET.md` (all unverified; **0 Visible** MCR).
 
 ## High-Value Field Toolkit (Planned Appendices)
 
@@ -65,7 +67,7 @@
 | C | Guardrail & Edge Protection Card | **Draft card** |
 | D | Free-Standing / Mobile Tower Ratio Card | **Draft card** |
 | E | Scaff-Tag User Card | **Draft card** |
-| F | Pre-Use Inspection Checklist | **Draft checklist v0.4** |
+| F | Pre-Use Inspection Quick Card (+ template checklist) | **Draft card EN/AR + checklist v0.4** |
 | G | Never Rules One-Pager | **Draft card** |
 | H | Gin Wheel Limits Card | **Draft card** |
 | I | Tie Types Quick Reference | **Draft card** |
